@@ -1,7 +1,9 @@
 D:\PatternPrograming\InetBankingV2\src\test\java\com\inetBanking\testCases\TC_LoginDDT002.java
 D:\PatternPrograming\InetBankingV2\src\test\java\com\inetBanking\testCases\BaseClass.java
 D:\PatternPrograming\InetBankingV2\src\test\java\com\inetBanking\utilites\Reporting.java
+D:\PatternPrograming\InetBankingV2\src\test\java\com\inetBanking\testCases\TC_AddNewCustomer003.java
 D:\PatternPrograming\InetBankingV2\src\test\java\com\inetBanking\testCases\TC_LoginTest001.java
 D:\PatternPrograming\InetBankingV2\src\test\java\com\inetBanking\pageObjects\LoginPage.java
 D:\PatternPrograming\InetBankingV2\src\test\java\com\inetBanking\utilites\XLUtils.java
+D:\PatternPrograming\InetBankingV2\src\test\java\com\inetBanking\pageObjects\AddingNewCustomer.java
 D:\PatternPrograming\InetBankingV2\src\test\java\com\inetBanking\utilites\ReadConfig.java

@@ -24,6 +24,8 @@
                
                <class name="com.inetBanking.testCases.TC_LoginTest001"  />
                
+               <class name="com.inetBanking.testCases.TC_AddNewCustomer003" />
+               
                
       </classes>
       

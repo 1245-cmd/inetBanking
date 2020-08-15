@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="InetBankingV2" duration-ms="38469" started-at="2020-08-08T16:43:30Z" finished-at="2020-08-08T16:44:08Z">
+  <suite name="InetBankingV2" duration-ms="84716" started-at="2020-08-15T09:06:37Z" finished-at="2020-08-15T09:08:01Z">
     <groups>
     </groups>
-    <test name="BankingApp Test" duration-ms="38469" started-at="2020-08-08T16:43:30Z" finished-at="2020-08-08T16:44:08Z">
-      <class name="com.inetBanking.testCases.TC_LoginTest001">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginTest001@6cc4c815]" name="setup" is-config="true" duration-ms="26215" started-at="2020-08-08T16:43:30Z" finished-at="2020-08-08T16:43:56Z">
+    <test name="BankingApp Test" duration-ms="84716" started-at="2020-08-15T09:06:37Z" finished-at="2020-08-15T09:08:01Z">
+      <class name="com.inetBanking.testCases.TC_AddNewCustomer003">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_AddNewCustomer003@100fc185]" name="setup" is-config="true" duration-ms="18392" started-at="2020-08-15T09:07:27Z" finished-at="2020-08-15T09:07:45Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.inetBanking.testCases.TC_LoginTest001@6cc4c815]" name="loginTest" duration-ms="5216" started-at="2020-08-08T16:43:56Z" finished-at="2020-08-08T16:44:02Z">
+        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:com.inetBanking.testCases.TC_AddNewCustomer003@100fc185]" name="addNewCustomer" duration-ms="9677" started-at="2020-08-15T09:07:45Z" finished-at="2020-08-15T09:07:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetBanking.testCases.TC_AddNewCustomer003@100fc185]" name="tearDown" is-config="true" duration-ms="6665" started-at="2020-08-15T09:07:55Z" finished-at="2020-08-15T09:08:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetBanking.testCases.TC_AddNewCustomer003 -->
+      <class name="com.inetBanking.testCases.TC_LoginTest001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginTest001@3a82f6ef]" name="setup" is-config="true" duration-ms="32194" started-at="2020-08-15T09:06:37Z" finished-at="2020-08-15T09:07:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.inetBanking.testCases.TC_LoginTest001@3a82f6ef]" name="loginTest" duration-ms="8974" started-at="2020-08-15T09:07:09Z" finished-at="2020-08-15T09:07:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetBanking.testCases.TC_LoginTest001@6cc4c815]" name="tearDown" is-config="true" duration-ms="6467" started-at="2020-08-08T16:44:02Z" finished-at="2020-08-08T16:44:08Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetBanking.testCases.TC_LoginTest001@3a82f6ef]" name="tearDown" is-config="true" duration-ms="8432" started-at="2020-08-15T09:07:18Z" finished-at="2020-08-15T09:07:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
